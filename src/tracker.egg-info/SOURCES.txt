@@ -1,0 +1,12 @@
+main.py
+setup.py
+tracker.egg-info/._PKG-INFO
+tracker.egg-info/._SOURCES.txt
+tracker.egg-info/._dependency_links.txt
+tracker.egg-info/._entry_points.txt
+tracker.egg-info/._top_level.txt
+tracker.egg-info/PKG-INFO
+tracker.egg-info/SOURCES.txt
+tracker.egg-info/dependency_links.txt
+tracker.egg-info/entry_points.txt
+tracker.egg-info/top_level.txt
