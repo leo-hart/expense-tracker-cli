@@ -1,38 +1,33 @@
 # Expense Tracker
 
-A command-line expense tracker application to manage personal finances.
+A command-line application to manage personal finances with ease.
+
+The Expense Tracker is a powerful yet simple command-line tool designed to help you manage your expenses efficiently. Whether you're tracking daily spending, monitoring monthly budgets, or exporting financial data for analysis, this application has you covered. 
 
 ## Features
-- Add, delete, update, and list expenses.
-- View a summary of total expenseses; View a summary for a specific month.
-- Export expenses to a CSV file.
+- Add Expenses: Quickly log expenses with a description and amount.
+- Delete Expenses: Remove unwanted or incorrect entries.
+- Update Expenses: Modify existing expense details.
+- List Expenses: View all expenses in a clean, tabular format.
+- Expense Summary: Get a total summary of expenses or filter by month.
+- Export to CSV: Export your expense data to a CSV file for further analysis or sharing.
+- Cross-Platform: Works seamlessly on Windows, macOS, and Linux.
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/leo-hart/expense-tracker-cli.git
-
-2. Navigate to project folder:
-   ```bash
-   cd expense-tracker-cli
-
-3. Set up a virtual environment
+1. Installation:
     ```bash
+    git clone https://github.com/your-username/expense-tracker.git
+    cd expense-tracker
     python -m venv venv
 
-4. Activate
-    ```bash
-    On Windows:
-    .\venv\Scripts\Acti vate
+    # On macOS
+    source venv/bin/activate  
+    # On Windows: 
+    .\venv\Scripts\Activate
 
-    On macOS/Linux:
-    source venv/bin/activate
-
-5. Instal dependencies
-    ```bash
     pip install -e .
 
-## Usage
+## How To Use
 1. Add
     ```bash
     # Users can add an expense with a description and amount.
@@ -71,3 +66,9 @@ A command-line expense tracker application to manage personal finances.
     # Users can export expenses to a CSV file.
     tracker export --output expenses.csv
 ![Demo](assets\export.gif)
+
+## Technologies Used
+-    Python: The core programming language used for development.
+-    argparse: For parsing command-line arguments and creating a user-friendly CLI.
+-    pathlib: For handling file paths in a cross-platform manner.
+-    JSON: For storing and managing expense data.
