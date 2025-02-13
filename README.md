@@ -32,25 +32,25 @@ The Expense Tracker is a powerful yet simple command-line tool designed to help 
     ```bash
     # Users can add an expense with a description and amount.
     tracker add --description "Lunch" --amount 16
-![Demo](assets\add.gif)
+![Image](https://github.com/user-attachments/assets/a907f993-a737-49f5-ba5e-adf6d98f399b)
 
 2. List
     ```bash
     # List all the expenses
     tracker list
-![Demo](assets\list.gif)
+![Image](https://github.com/user-attachments/assets/5465294d-0735-4564-87a4-a49320aee1d1)
 
 3. Delete
     ```bash
     # Users can delete an expense based on its id.
     tracker delete --id 4
-![Demo](assets\delete.gif)
+![Image](https://github.com/user-attachments/assets/f569d3ff-677e-4616-bd4a-74e337bb1d64)
 
 4. Update
     ```bash
     # Users can update an expense.
     tracker update --id 4 --amount 32
-![Demo](assets\update.gif)
+![Image](https://github.com/user-attachments/assets/aa94e9d9-68e3-4fe4-9bb1-dcfefe534d5f)
 
 5. Summary
     ```bash
@@ -59,13 +59,13 @@ The Expense Tracker is a powerful yet simple command-line tool designed to help 
 
     # Users can view a sum of expenses for a specific month.
     tracker summary --month 1    
-![Demo](assets\summary.gif)
+![Image](https://github.com/user-attachments/assets/108de844-ec2b-49be-8343-00085b474f58)
 
 6. Export
     ```bash
     # Users can export expenses to a CSV file.
     tracker export --output expenses.csv
-![Demo](assets\export.gif)
+![Image](https://github.com/user-attachments/assets/0967a2fc-2bf5-470d-a312-221b63d18cac)
 
 ## Technologies Used
 -    Python: The core programming language used for development.
