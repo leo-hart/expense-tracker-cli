@@ -16,8 +16,8 @@ The Expense Tracker is a powerful yet simple command-line tool designed to help 
 ## Installation
 1. Installation:
     ```bash
-    git clone https://github.com/your-username/expense-tracker.git
-    cd expense-tracker
+    git clone https://github.com/your-username/expense-tracker-cli.git
+    cd expense-tracker-cli
     python -m venv venv
 
     # On macOS
